@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&display=swap');
+
+:root {
+    --main-background: black;
+    --accent-color: gold;
+    --defaultradius: 1em;
+    --default-font: 'Bilbo', serif;
+    --default-font-size: 18px;
+    --default-headfont-size: 30px; 
+    --subtle-color: rgb(56, 49, 7);
+}
+
+body {
+    background-color:  var(--main-background);
+    color: var(--accent-color);
+
+}
+h1 {
+    font-family: var(--default-font);
+    text-align: center;
+    font-size: var(--default-headfont-size);
+}
+.main {
+    border-radius: var(--defaultradius);
+    height: auto;
+    width: 95%;
+    border: 0.1em solid var(--accent-color);
+    
+}
+quote {
+    font-size: var(--default-font-size);
+    font-style: italic;
+    color: var(--subtle-color);
+}
+.topbar {
+    width: 100%;
+    align-items: center;
+    font-family: var(--default-font);
+    background-color: var(--subtle-color);
+}
